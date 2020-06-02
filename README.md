@@ -2,4 +2,4 @@
 
 ## Ejercicios de JavaScript del Laboratorio de diseño Web de Milma ##
 
-Los ejercicios se encuentran en [uniwebsidad](http://https://uniwebsidad.com/libros/javascript "Uniwebsidad").
+Los ejercicios se encuentran en [Uniwebsidad](https://uniwebsidad.com/libros/javascript "Uniwebsidad").
