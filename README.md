@@ -17,3 +17,7 @@ Se encuentra en la carpeta "js-e2", y el enlace del temario es [este](https://un
 #### Ejercicio 3 ####
 
 Se encuentra en la carpeta "js-e3", y el enlace del temario es [el mismo que el ejercicio 2](https://uniwebsidad.com/libros/javascript/capitulo-3/tipos-de-variables "Uniwebsidad capítulo 2/tipos-de-variables").
+
+#### Ejercicio 4 ####
+
+Se encuentra en la carpeta "js-e4", y el enlace del temario es [este](https:/https://uniwebsidad.com/libros/javascript/capitulo-3/operadores "Uniwebsidad capítulo 3/operadores").
