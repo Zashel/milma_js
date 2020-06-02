@@ -3,5 +3,8 @@
 * una norma no "escribida".
 */
 
-alert("Hola Mundo!"); // Esto es una alerta que saluda al mundo. Un tropo en el sector.
+// Utilizamos la variable mensaja como texto para la primera alerta.
+var mensaje = "Hola Mundo!";
+
+alert(mensaje); // Esto es una alerta que saluda al mundo. Un tropo en el sector.
 alert("Soy el primer script"); // Esto es otra alerta que se presenta. Aguardamos respuesta.
