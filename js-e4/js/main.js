@@ -18,5 +18,18 @@ alert("Adios es mas larga que hola");
 */
 var valor_true = valores[0]; // ¿En serio?
 var valor_false = valores[2]; // ¿En serio, serio?
+alert("Operaciones Booleanas");
 alert(valor_true || valor_false); //Esto es Verdadero
 alert(valor_true && valor_false); //Esto es Falso
+
+/* Determinar el resultado de las cinco operaciones matemáticas realizadas con
+* los dos elementos numéricos
+*/
+var valor_1 = valores[1]; // Reutiliza variables si solo sabes qué estás haciendo
+var valor_2 = valores[5];
+alert("Operaciones num\xE9ricas");
+alert(valor_1 + valor_2);
+alert(valor_1 - valor_2);
+alert(valor_1 * valor_2);
+alert(valor_1 / valor_2);
+alert(valor_1 % valor_2);
