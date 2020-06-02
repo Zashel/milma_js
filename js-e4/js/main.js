@@ -11,3 +11,12 @@ var valor_1 = valores[4];
 var valor_2 = valores[5];
 var valor_2_es_mayor = valor_2 > valor_1;
 alert("Adios es mas larga que hola");
+
+/* Utilizando exclusivamente los dos valores booleanos del array, determinar
+* los operadores necesarios para obtener un resultado true y otro resultado
+* false
+*/
+var valor_true = valores[0]; // ¿En serio?
+var valor_false = valores[2]; // ¿En serio, serio?
+alert(valor_true || valor_false); //Esto es Verdadero
+alert(valor_true && valor_false); //Esto es Falso
