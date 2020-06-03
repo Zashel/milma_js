@@ -37,3 +37,7 @@ Se encuentra en la carpeta "js-e7", y el enlace del temario es [el mismo del eje
 #### Ejercicio 8 ####
 
 Se encuentra en la carpeta "js-e8", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-4/funciones "Uniwebsidad capítulo 4/funciones"). Entramos en chicha.
+
+#### Ejercicio 9 ####
+
+Se encuentra en la carpeta "js-e9", y el enlace del temario es [el mismo de antes](https://uniwebsidad.com/libros/javascript/capitulo-4/funciones "Uniwebsidad capítulo 4/funciones"). Este tengo que investigarlo. Seguro es una chorrada.
