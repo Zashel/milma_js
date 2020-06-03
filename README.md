@@ -21,3 +21,7 @@ Se encuentra en la carpeta "js-e3", y el enlace del temario es [el mismo que el 
 #### Ejercicio 4 ####
 
 Se encuentra en la carpeta "js-e4", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-3/operadores "Uniwebsidad capítulo 3/operadores").
+
+#### Ejercicio 5 ####
+
+Se encuentra en la carpeta "js-e5", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-3/estructuras-de-control-de-flujo "Uniwebsidad capítulo 3/estructuras de control de flujo").
