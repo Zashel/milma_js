@@ -29,3 +29,7 @@ Se encuentra en la carpeta "js-e5", y el enlace del temario es [este](https://un
 #### Ejercicio 6 ####
 
 Se encuentra en la carpeta "js-e6", y el enlace del temario es [el mismo del ejercicio 5](https://uniwebsidad.com/libros/javascript/capitulo-3/estructuras-de-control-de-flujo "Uniwebsidad capítulo 3/estructuras de control de flujo").
+
+#### Ejercicio 7 ####
+
+Se encuentra en la carpeta "js-e7", y el enlace del temario es [el mismo del ejercicio 5](https://uniwebsidad.com/libros/javascript/capitulo-3/estructuras-de-control-de-flujo "Uniwebsidad capítulo 3/estructuras de control de flujo").
