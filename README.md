@@ -33,3 +33,7 @@ Se encuentra en la carpeta "js-e6", y el enlace del temario es [el mismo del eje
 #### Ejercicio 7 ####
 
 Se encuentra en la carpeta "js-e7", y el enlace del temario es [el mismo del ejercicio 5](https://uniwebsidad.com/libros/javascript/capitulo-3/estructuras-de-control-de-flujo "Uniwebsidad capítulo 3/estructuras de control de flujo").
+
+#### Ejercicio 8 ####
+
+Se encuentra en la carpeta "js-e8", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-4/funciones "Uniwebsidad capítulo 4/funciones"). Entramos en chicha.
