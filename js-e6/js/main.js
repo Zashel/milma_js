@@ -32,3 +32,23 @@
 * letra que ha indicado no es correcta. En otro caso, se muestra un mensaje
 * indicando que el número y la letra de DNI son correctos.
 */
+
+var dni = prompt("Indica tu DNI sin la letra");
+
+if (dni < 0 || dni > 99999999) {
+  alert("El numero indicado es una patata, ponlo bien, por favor");
+} else {
+
+  var resto = dni % 23;
+  var letra_calculada = letras[resto];
+
+// La paso a mayúsculas porque la "h" no es igual a la "H" y eso como que no
+  var letra = prompt("Indica la letra de tu DNI").toUpperCase();
+
+  if (letra == letra_calculada) {
+    alert("Cojonudo, la letra coincide");
+  } else {
+    alert("Pues va a ser que no, que esa letra no es la de ese numero...");
+  }
+
+}
