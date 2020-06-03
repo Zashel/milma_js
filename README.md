@@ -20,4 +20,4 @@ Se encuentra en la carpeta "js-e3", y el enlace del temario es [el mismo que el 
 
 #### Ejercicio 4 ####
 
-Se encuentra en la carpeta "js-e4", y el enlace del temario es [este](https:/https://uniwebsidad.com/libros/javascript/capitulo-3/operadores "Uniwebsidad capítulo 3/operadores").
+Se encuentra en la carpeta "js-e4", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-3/operadores "Uniwebsidad capítulo 3/operadores").
