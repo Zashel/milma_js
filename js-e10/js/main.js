@@ -47,3 +47,22 @@ function es_palindromo(texto) {
 var texto = prompt("Dame un palindromo, tigre.")
 // Lo guardo en variable porque hay una forma más fácil de hacerlo, luego veréis.
 es_palindromo(texto);
+
+// Y ahora de forma fácil
+
+function palindromo_easy(texto) {
+  // Vamos a obviar las separaciones del principio y del final...
+  texto = texto.trim();
+  // Y lo pasamos a minúsculas, porque patatas
+  texto = texto.toLowerCase();
+  // Y le quitamos los espacios en blanco dentro.
+  texto = texto.split(" ").join("");
+  texto_inverso = Array.from(texto).reverse().join(""); // Hala, busca la documentación
+  if (texto == texto_inverso) {
+    alert("Que si es palindromo, narices");
+  } else {
+    alert("No te he dicho ya que no lo era?");
+  }
+}
+
+palindromo_easy(texto);
