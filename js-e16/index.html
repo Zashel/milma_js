@@ -10,9 +10,27 @@
     </style>
     <script type="6d4a5603635e3860ab656572-text/javascript">
       function informacion(elEvento) {
-      	var evento = elEvento || window.event;
-
-      	muestraInformacion();
+      	var evento = elEvento || window.event; // Esto ya no hace falta, iExplore.exe ha muerto
+        // Buscamos las coordenadas
+        var x = evento.clientX;
+        var y = evento.clientY;
+        // Cogemos el tamaño de la ventana
+        var ventana = tamanoVentanaNavegador();
+        var vent_x = ventana[0];
+        var vent_y = ventana[1];
+        // ¿Estoy arriba o abajo?
+        var med_y = vent_y / 2; // arriba
+        var vertical = "abajo";
+        if (y <= med_y) {
+          vertical = "arriba";
+        }
+        // ¿Estoy a la izquierda o a la derecha?
+        var med_x = vent_x / 2; // izquierda
+        var horizontal = "derecha";
+        if (x <= med_x) {
+          horizontal = "izquierda";
+        }
+      	muestraInformacion(["Click", vertical + " " + horizontal]);
       }
 
       function muestraInformacion(mensaje) {
@@ -40,7 +58,7 @@
       	return dimensiones;
       }
 
-    document.onclick = informacion;
+    document.onclick = informacion; // Y esto se puede llegar a ejecutar antes incluso de que cargue la página...
 
     </script>
   </head>
