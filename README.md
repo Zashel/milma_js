@@ -49,3 +49,7 @@ Se encuentra en la carpeta "js-e10", y el enlace del temario es [el de antes](ht
 #### Ejercicio 11 ####
 
 Se encuentra en la carpeta "js-e11", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-5/ejercicios-sobre-dom "Uniwebsidad capítulo 5/DOM").
+
+#### Ejercicio 12 ####
+
+Se encuentra en la carpeta "js-e12", y el enlace del temario es [el mismo de antes](https://uniwebsidad.com/libros/javascript/capitulo-5/ejercicios-sobre-dom "Uniwebsidad capítulo 5/DOM").
