@@ -4,8 +4,87 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Ejercicio 13 - DOM b�sico y atributos XHTML</title>
     <script type="6720ef3a95c8a9d567850fb2-text/javascript">
+      var frases = [ // Esto es un vacile.
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Quisque dictum augue nec urna pellentesque, sit amet ullamcorper quam ornare.",
+        "Cras laoreet turpis quis eros hendrerit rhoncus.",
+        "Fusce eget nunc ut ex efficitur placerat.",
+        "Nunc ac eros sit amet velit bibendum convallis id blandit elit.",
+        "Ut aliquet leo vitae cursus pretium.",
+        "Nullam vestibulum mi sed justo dictum tincidunt a nec augue.",
+        "Mauris vel orci sodales, accumsan erat at, sodales mi.",
+        "Pellentesque blandit magna eu urna facilisis dapibus.",
+        "Nunc varius dui sed ipsum bibendum fermentum.",
+        "Pellentesque vitae ipsum dignissim, laoreet nisi nec, placerat est.",
+        "Nunc scelerisque lorem vel velit scelerisque auctor.",
+        "Quisque sit amet turpis commodo, aliquet urna sit amet, varius neque.",
+        "Donec et risus viverra, scelerisque neque et, faucibus libero.",
+        "Suspendisse at neque ut urna faucibus maximus.",
+        "Etiam condimentum lacus convallis urna finibus efficitur.",
+        "Sed et leo sit amet risus sollicitudin aliquam ac et dolor.",
+        "In non purus malesuada, vehicula turpis sed, dictum nulla.",
+        "Pellentesque vulputate massa in dui euismod semper.",
+        "Morbi consectetur ante vel urna mattis, in dapibus elit semper.",
+        "Nullam vestibulum ante sed neque semper pretium.",
+        "Duis malesuada ex id mauris tempus venenatis.",
+        "Nunc quis est ac felis semper aliquam lobortis in nisl.",
+        "In pharetra quam in augue suscipit tempor.",
+        "Aliquam non felis hendrerit quam efficitur fringilla non ut tellus.",
+        "Aliquam in orci tristique lorem pretium volutpat et molestie magna.",
+        "Suspendisse lacinia ligula maximus libero consectetur blandit.",
+        "Vivamus a lorem sit amet diam tempor vestibulum a vel nisl.",
+        "Curabitur viverra quam quis justo egestas sodales.",
+        "Quisque eget nunc imperdiet odio tempus efficitur nec non odio.",
+        "Proin a eros condimentum, sollicitudin nulla non, pulvinar mauris.",
+        "Sed semper ex vitae ante varius egestas.",
+        "In sit amet velit sed arcu pellentesque ultricies.",
+        "Pellentesque at nunc ut elit malesuada commodo.",
+        "Fusce ultrices eros nec sapien egestas blandit.",
+        "Sed sit amet dolor eleifend, porttitor tortor egestas, consectetur eros.",
+        "Fusce sed velit eget est semper sagittis quis vitae neque.",
+        "Vestibulum ac velit pellentesque augue imperdiet iaculis.",
+        "Sed quis est et ante tempor bibendum nec a orci.",
+        "Nunc a est at lectus iaculis congue eu aliquam dolor.",
+        "Aenean interdum quam at viverra auctor.",
+        "In eget dolor ut lacus dignissim fringilla.",
+        "Etiam tincidunt lorem rutrum, vulputate odio vel, faucibus purus.",
+        "Ut pellentesque orci eget dictum fringilla.",
+        "Maecenas suscipit erat sed ex euismod dictum.",
+        "Sed sagittis justo et metus fermentum tincidunt.",
+        "Praesent luctus nibh eu ante placerat, at dapibus elit elementum.",
+        "Maecenas auctor sem et mollis suscipit.",
+        "Praesent tincidunt lorem suscipit felis pharetra, vel ornare est vestibulum.",
+        "Pellentesque sit amet ex vitae quam venenatis fringilla vel et massa.",
+        "Nunc rhoncus ex vitae vulputate euismod.",
+        "Quisque nec turpis id metus vehicula egestas nec hendrerit neque.",
+        "Phasellus in quam placerat, bibendum ipsum sed, congue libero.",
+        "Suspendisse blandit dolor eget tincidunt tincidunt.",
+        "In pulvinar nunc non lacus auctor, tempor mattis tortor faucibus.",
+        "Aenean nec risus non mauris volutpat sollicitudin.",
+        "Aliquam eu felis eget eros porttitor tincidunt.",
+        "Nunc id arcu nec nunc ultrices feugiat.",
+        "Nullam elementum augue nec orci facilisis, eget vestibulum leo dapibus.",
+        "Donec a augue in eros euismod ullamcorper at vel orci.",
+        "Quisque imperdiet erat in risus consequat, eget malesuada ligula condimentum.",
+        "Integer auctor enim dapibus, pulvinar augue et, elementum lacus.",
+        "Aliquam id tortor laoreet, pretium felis sed, aliquam massa.",
+        "Duis placerat lacus at laoreet venenatis.",
+        "Curabitur ultrices orci eget enim fringilla lacinia.",
+        "Etiam ut ante sed arcu maximus euismod volutpat sit amet velit.",
+        "Nulla dignissim orci quis nunc egestas vestibulum vitae id ligula.",
+        "Integer accumsan turpis eu velit porttitor, sed eleifend massa commodo.",
+        "Ut mattis odio ut libero bibendum, et laoreet leo condimentum.",
+        "Cras sed quam egestas, euismod quam eu, volutpat lacus."
+      ];
       function anade() {
-        
+        // Ahora creamos un nuevo li
+        li = document.createElement("li");
+        // le añadimos el texto
+        li.innerText = frases.shift();
+        // Devuelvo la frase al final, por si te da por darle hasta el infinito
+        frases.push(li.innerText);
+        // Ahora agarramos la lista y la obligamos a adoptar otro bebé
+        document.getElementById("lista").appendChild(li);
       }
     </script>
   </head>
