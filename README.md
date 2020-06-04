@@ -45,3 +45,7 @@ Se encuentra en la carpeta "js-e9", y el enlace del temario es [el mismo de ante
 #### Ejercicio 10 ####
 
 Se encuentra en la carpeta "js-e10", y el enlace del temario es [el de antes](https://uniwebsidad.com/libros/javascript/capitulo-4/funciones "Uniwebsidad capítulo 4/funciones"). Qué weno este.
+
+#### Ejercicio 11 ####
+
+Se encuentra en la carpeta "js-e11", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-5/ejercicios-sobre-dom "Uniwebsidad capítulo 5/DOM"). 
