@@ -61,3 +61,7 @@ Se encuentra en la carpeta "js-e13", y el enlace del temario es [otro que no gua
 #### Ejercicio 14 ####
 
 Se encuentra en la carpeta "js-e14", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-6/modelo-basico-de-eventos-2 "Uniwebsidad capítulo 6/Eventos").
+
+#### Ejercicio 15 ####
+
+Se encuentra en la carpeta "js-e15", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-6/obteniendo-informacion-del-evento-objeto-event "Uniwebsidad capítulo 6/Eventos").
