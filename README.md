@@ -57,3 +57,7 @@ Se encuentra en la carpeta "js-e12", y el enlace del temario es [el mismo de ant
 #### Ejercicio 13 ####
 
 Se encuentra en la carpeta "js-e13", y el enlace del temario es [otro que no guarda la distancia de seguridad](https://uniwebsidad.com/libros/javascript/capitulo-5/ejercicios-sobre-dom "Uniwebsidad capítulo 5/DOM").
+
+#### Ejercicio 14 ####
+
+Se encuentra en la carpeta "js-e14", y el enlace del temario es [este](https://uniwebsidad.com/libros/javascript/capitulo-6/modelo-basico-de-eventos-2 "Uniwebsidad capítulo 6/Eventos").
