@@ -9,7 +9,12 @@
     </style>
     <script type="a299ab1877b90845e6243342-text/javascript">
     function muestra() {
-
+      // Pues nada, tenemos el span#adicional que tenemos que cambiar a clase .visible...
+      document.getElementById("adicional"). // Agarramos el span#adicional
+               setAttribute("class", "visible"); // Y le cambiamos la clase
+      // Nos falta ocultar el enlace que es un a#enlace...
+      document.getElementById("enlace"). // Agarramos el a#enlace
+               setAttribute("class", "oculto"); // Y le cambiamos la clase, como antes
     }
     </script>
   </head>
@@ -29,7 +34,8 @@
       Vestibulum venenatis erat eu odio. Praesent id metus.</span></p>
     <a id="enlace"
        href="#"
-       onclick="if (!window.__cfRLUnblockHandlers) return false; muestra();
+       onclick="if (!window.__cfRLUnblockHandlers) return false;
+                muestra();
                 return false;"
        data-cf-modified-a299ab1877b90845e6243342-="">Seguir leyendo</a>
     <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
