@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="es">
   <head>
     <meta http-equiv="Content-Type" content="text/html; utf-8" />
     <title>Ejercicio 15 - Información sobre eventos</title>
@@ -14,6 +14,48 @@
       	for(var i=1; i<mensaje.length; i++) {
       		document.getElementById("info").innerHTML += '<p>'+mensaje[i]+'</p>';
       	}
+      }
+
+      // He hecho un poco de trampas y me he visto la solución porque no me
+      // funcionaba bien del todo...
+      var e; // Dejo esto aquí, lo uso para debug y revisar qué me da el evento
+      function se_hace_algo(evento) {
+        console.log(evento.type);
+        switch (evento.type) {
+          case "mousemove":
+            var nav_x = evento.clientX;
+            var nav_y = evento.clientY;
+            var pag_x = evento.pageX;
+            var pag_y = evento.pageY;
+            muestraInformacion(["Ratón",
+                                "Navegador[" + nav_x +", " + nav_y +"]",
+                                "Página[" + pag_x +", " + pag_y +"]"
+                              ]);
+            document.getElementById("info").style.background = "#FFFFFF";
+            break;
+          case "keydown":
+            e = event;
+            // Arreglao, como keypress está deprecated tuve que mirar qué me daba el evento.
+            var keyCode = evento.keyCode;
+            var character = evento.key;
+            muestraInformacion(["Teclado",
+                                "Caracter[" + character + "]",
+                                "Código[" + keyCode +"]"
+                              ]);
+            document.getElementById("info").style.background = "#CCE6FF";
+            break;
+          case "click":
+            document.getElementById("info").style.background = "#FFFFCC";
+            break;
+        }
+      }
+
+      window.onload = function() {
+        window.onmousemove = se_hace_algo;
+        // Keypress esta "deprecado", se usa keydown en su lugar.
+        // window.onkeypress = se_pulsa;
+        window.onkeydown = se_hace_algo;
+        window.onclick = se_hace_algo;
       }
     </script>
   </head>
