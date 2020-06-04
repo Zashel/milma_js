@@ -2,9 +2,35 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Ejercicio 14 - DOM b�sico y atributos XHTML</title>
+    <title>Ejercicio 14 - DOM básico y atributos XHTML</title>
     <script type="5153a2e8103404e01d06ff0b-text/javascript">
       function muestraOculta() {
+        // Busco el ID del párrafo a darle candela
+        var p_id = this.id.replace("enlace_", "contenidos_");
+        // Agarro al párrafo no se me fuera de madre
+        var p = document.getElementById(p_id);
+        // Miro si está oculto y, si no, lo oculto y cambio el texto del enlace
+        // y viceversa
+        if (p.style.display == "none") { // Sí, también se cambian estilos aquí
+          p.style.display = "";
+          this.innerHTML = "Ocultar contenidos";
+        } else {
+          p.style.display = "none";
+          this.innerHTML = "Mostrar contenidos del párrafo " +
+            this.id.replace("enlace_", "");
+        }
+      }
+      // Esto debería ir al pie de la página pero vale
+      window.onload = function() {
+        // Empiezo a enteneder bien porqué se usa tanto jQuery
+        // A la mierda, esto no lo voy a hacer de forma individualizada
+        var links = document.getElementsByTagName("a");
+        for (a in Array.from(links)) { // Vamos a buscarlos.
+          //Creo array porque si no me coge todos los objetos y length no me vale
+          if (links[a].id.startsWith("enlace_")) { // Qué gracia, me da igual cuál sea
+            links[a].onclick = muestraOculta; // Hala, ya lo tienen todos
+          }
+        }
       }
     </script>
   </head>
