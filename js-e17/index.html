@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta encoding="utf-8">
+    <title>Ejercicio 17</title>
+  </head>
+
+  <body>
+
+    <textarea id="texto" onkeypress="return limita(100);"></textarea>
+
+    <script type="text/javascript">
+    function limita(maximoCaracteres) {
+      var elemento = document.getElementById("texto");
+      if(elemento.value.length >= maximoCaracteres ) {
+        return false;
+      }
+      else {
+        return true;
+      }
+    }
+    </script>
+  </body>
+</html>
