@@ -73,3 +73,6 @@ Se encuentra en la carpeta "js-e16", y el enlace del temario es [el mismo del an
 #### Ejercicio 17 ####
 
 Se encuentra en la carpeta "js-e17", y el enlace del temario es [aqueste](https://uniwebsidad.com/libros/javascript/capitulo-7/utilidades-basicas-para-formularios "Uniwebsidad capítulo 6/Eventos"). Mi caprichosa memoria me alarma al respecto de este ejercicio diciéndome que no recuerda que textarea funcione como dice... A ver qué encuentro. [Nota: Me encuentro que funciona y  puede que mi memoria me engañe debido a que tuve que usarlo con un iexplorer anatiguo... tanta paz lleves como dejas]
+
+### Paso de los ejercicios 18 y 19... ###
+Esto está ya en HTML5, ¿no?
